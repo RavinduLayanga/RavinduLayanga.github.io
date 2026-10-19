@@ -1,5 +1,24 @@
 const projects = [
   {
+    title: "Clothing & Fashion E-Commerce Platform",
+    description:
+      "A full-stack clothing e-commerce application built with Next.js and Express, featuring product search and filtering, variant-based inventory, a shopping cart, guest checkout, transactional inventory reservations, and an authenticated admin dashboard. Uses Prisma and PostgreSQL for data persistence and order management.",
+    tags: [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "E-Commerce",
+      "REST API",
+    ],
+    github:
+      "https://github.com/RavinduLayanga/FashionStore-E-Commerce-Platform",
+    live: "https://fashion-store-lime-one.vercel.app/",
+  },
+  {
     title: "LSF Train Seat Booking System",
     description:
       "A full-stack train seat reservation system built to handle concurrent booking requests safely. Implemented a Java REST API with Javalin and JDBC, PostgreSQL transactions, row-level locking, and database-driven seat availability to prevent double booking.",
